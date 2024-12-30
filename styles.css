@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+.container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.user-container {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+input[type="text"] {
+    padding: 12px;
+    margin: 5px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.removeUserButton {
+    background-color: #f44336;
+}
+
+.removeUserButton:hover {
+    background-color: #e53935;
+}
+
+.graphs {
+    margin-top: 40px;
+}
+
+.graph-container {
+    margin: 30px;
+}
+
+#resetButton {
+    background-color: #007bff;
+}
+
+#resetButton:hover {
+    background-color: #0056b3;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    color: #666;
+}
+
+
+h3 {
+    font-size: 22px;
+    color: #060606;
+}
+#loading {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+#lottieAnimation {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.2/lottie.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leetcode Profile Comparator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+
+<h1>Leetcode Profile Comparator</h1>
+
+<div class="container">
+    <button id="addUserButton">+</button>
+    <button class="removeUserButton" onclick="removeUser()">-</button>
+    <div id="usersContainer">
+        <div class="user-container" id="user1">
+            <input type="text" id="profileUrl1" placeholder="Enter profile URL">
+        </div>
+        <div class="user-container" id="user2">
+            <input type="text" id="profileUrl2" placeholder="Enter profile URL">
+        </div>
+        <div class="user-container" id="user3">
+            <input type="text" id="profileUrl3" placeholder="Enter profile URL">
+        </div>
+        <div class="user-container" id="user4">
+            <input type="text" id="profileUrl4" placeholder="Enter profile URL">
+        </div>
+    </div>
+    <button id="fetchButton" onclick="fetchAllUserData()">Fetch All Data</button>
+    <button id="resetButton" onclick="resetPage()">Reset</button>
+</div>
+<div id="loading" style="display: none;">
+    <div id="lottieAnimation" style="width: 15%; height: 15%; margin: auto;"></div>
+</div>
+
+<div class="graphs" id="graphsSection" style="display: none;">
+    
+    <div class="graph-container">
+        <h3>Total Solved Graph</h3>
+        <div id="totalSolvedGraph"></div>
+    </div>
+    
+    <div class="graph-container">
+        <h3>Difficulty Distribution</h3>
+        <div id="difficultyGraph"></div>
+    </div>
+    
+    <div class="graph-container">
+        <h3>Contest Attendance</h3>
+        <div id="contestAttendGraph"></div>
+    </div>
+    
+    <div class="graph-container">
+        <h3>Contest Rating</h3>
+        <div id="contestRatingGraph"></div>
+    </div>
+    
+    <div class="graph-container">
+        <h3>Contest Top Percentage</h3>
+        <div id="contestTopPercentageGraph"></div>
+    </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
