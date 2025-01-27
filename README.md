@@ -16,7 +16,7 @@ Frontend: JavaScript, HTML, CSS
 Charts: ApexCharts
 API: LeetCode API
 
-
+Watch Video https://www.youtube.com/watch?v=Z6JkPaFTpko&feature=youtu.be
 
 
 ![Screenshot 2025-01-27 184437](https://github.com/user-attachments/assets/bee85f49-af5d-4543-9f90-ee1592ca2e64)
